@@ -70,6 +70,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+#change 3
 def cleanup_data(df):
     """
     Cleans up the data frame and removes the extra columns.
