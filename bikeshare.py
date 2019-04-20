@@ -13,6 +13,7 @@ MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday']
 
+#change 1
 def show_rawdata(df):
     """
     Ask the user if he wishes to see the raw data file. The data will be paged by increment of 5 records at a time, the user can
@@ -33,7 +34,7 @@ def show_rawdata(df):
     
     
         
-        
+#change 2        
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -69,6 +70,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+#change 3
 def cleanup_data(df):
     """
     Cleans up the data frame and removes the extra columns.
